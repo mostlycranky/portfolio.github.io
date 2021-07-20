@@ -1,0 +1,211 @@
+body {
+
+    background-color: rgba(252, 107, 114, 0.705);
+ margin:0;
+text-align: center;
+font-family: 'Sacramento', cursive;
+font-size: 1em;
+color:rgb(61, 61, 61);}
+
+    
+    
+    .cloud1{
+        position: relative;
+        top: 100px;
+        left: 300px;
+    }
+    
+    .cloud2{
+        position:absolute ;
+        left: 350px;
+        top: 400px;
+    }
+    .mountain{ 
+        margin-top: 80px;
+        margin-bottom: 0px;
+
+        
+        
+    }
+    .goa{
+        font-family: 'Cinzel', serif;
+    }
+    
+    .xyz{font-size: 2rem;
+        
+        padding-top: 100px;
+        color:black;
+        line-height: 50px;
+    }
+
+    .mee{
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+    .profile{
+    
+        margin-top: 0px;
+        line-height: 60px;
+    }
+    
+    
+    
+    
+    h2{
+        color:rgb(139, 80, 3) ;
+        font-family: 'Taviraj', serif;
+    }
+    h3{
+        color: rgb(172, 10, 236);
+        font-family: 'Arima Madurai', cursive;
+    }
+    
+    
+    h1{
+        font-weight: bolder;
+        
+    }
+    
+    .skill-row{
+        margin: 100px auto 100px auto;
+        
+    }
+    
+    .intro{
+        width: 40%;
+        margin: auto;
+    }
+    
+    p{
+        line-height: 2;
+        width: 40%;
+        margin: auto;
+        font-family: 'Handlee', cursive;
+        font-size: 1.25rem;
+    }
+    
+    hr{
+        border: dotted rgb(102, 102, 102) 6px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+
+    }
+    .contact{
+        width: 50%;
+        margin: 40px auto 60px;
+    }
+    
+    .btn {
+        background: #40460a;
+        background-image: -webkit-linear-gradient(top, #63b4eb, #00486e);
+        background-image: -moz-linear-gradient(top, #63b4eb, #00486e);
+        background-image: -ms-linear-gradient(top, #63b4eb, #00486e);
+        background-image: -o-linear-gradient(top, #63b4eb, #00486e);
+        background-image: linear-gradient(to bottom, #63b4eb, #00486e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Nanum Myeongjo', serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-bottom: 40px;
+      }
+      
+      .btn:hover {
+        background: #fc3ccc;
+        background-image: -webkit-linear-gradient(top, #3cecfc, #0098a3);
+        background-image: -moz-linear-gradient(top, #3cecfc, #0098a3);
+        background-image: -ms-linear-gradient(top, #3cecfc, #0098a3);
+        background-image: -o-linear-gradient(top, #3cecfc, #0098a3);
+        background-image: linear-gradient(to bottom, #3cecfc, #0098a3);
+        text-decoration: none;
+      }
+    
+    .bottom-container {
+       background-color: rgb(166, 211, 248);
+        margin-top: 50px;
+        height: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    a{
+        color: rgb(10, 108, 236);
+        font-family:  'Nanum Myeongjo', serif;
+        margin: 10px 10px;
+        text-decoration: none;
+    
+    }
+    
+    a:hover{
+        color:#62d9e4 ;
+    }
+   
+    .copy{
+        font-size: 0.75rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*
+    .Second {background-color: crimson;
+    width:200px;
+    height: 200px;
+     margin: 10px;
+    padding: 10px;
+margin-left: 215px;
+;}
+
+    .Third{background-color: darkmagenta;
+    width:200px;
+height: 200px;
+margin: 10px;
+padding: 10px;
+border-width: 10px;
+border: solid;
+margin-left: 440px;
+;}*//*margin doesn't change size, padding inc size bw content and box border*/
+/*.yay {
+    text-decoration: underline;
+color: darkorange;}
+.newline{display: inline;}
+.span{background-color: deeppink;
+visibility: hidden;} */
+     /*span element is inline , (inline, block,inline-block,etc) , display attribute used for changing width of block*/
+/*.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: 
+    absolute;
+    left: 10px;
+
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    ;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+}
+.yellow{
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+} */
+/*absolute position is from the body bargin, relative is from the object
+, to fix it even when u scroll down, use fixed*/
